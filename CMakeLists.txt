@@ -107,7 +107,7 @@ if(NOT CEF_SDK_VERSION)
   # "105.3.28+g002805e+chromium-105.0.5195.54"  # BAD   # debugbreak - debug mode
   # "107.1.9+g1f0a21a+chromium-107.0.5304.110"  # BAD   # debugbreak - debug mode
   # "110.0.26+g732747f+chromium-110.0.5481.97"  # BAD   # TO-BE-FIXED
-  set(DEFAULT_CEF_SDK_VER "113.3.1+g525fa10+chromium-113.0.5672.128")
+  set(DEFAULT_CEF_SDK_VER "109.1.18+gf1c41e4+chromium-109.0.5414.120")
   message(STATUS
     "CEF_SDK_VERSION is empty, use default version ${DEFAULT_CEF_SDK_VER}\n"
     "You can change the version by adding -DCEF_SDK_VERSION=xxx to commandline for generation")

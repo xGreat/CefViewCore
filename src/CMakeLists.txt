@@ -159,6 +159,7 @@ if(OS_WINDOWS)
   file(GLOB_RECURSE CefViewWing_PLATFORM_SRC_FILES
     "${CMAKE_CURRENT_SOURCE_DIR}/CefWing/win/*.h"
     "${CMAKE_CURRENT_SOURCE_DIR}/CefWing/win/*.cpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/CefWing/win/CefWing.rc"
   )
   source_group(
     TREE "${CMAKE_CURRENT_SOURCE_DIR}/CefWing/win"
